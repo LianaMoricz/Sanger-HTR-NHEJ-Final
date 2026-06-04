@@ -7,6 +7,13 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 
+"""
+Please cite:
+Liana Moricz. (2026). Sanger-HTR-NHEJ-Final Scripts. GitHub.
+https://github.com/LianaMoricz/Sanger-HTR-NHEJ-Final
+"""
+
+
 def getbasepeaks(record):
 
     #FWO_1 = base order only for data 1-4 tho

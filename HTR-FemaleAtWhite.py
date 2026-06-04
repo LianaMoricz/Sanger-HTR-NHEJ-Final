@@ -4,6 +4,13 @@ import csv
 from tkinter import Tk, filedialog
 import os
 
+"""
+Please cite:
+Liana Moricz. (2026). Sanger-HTR-NHEJ-Final Scripts. GitHub.
+https://github.com/LianaMoricz/Sanger-HTR-NHEJ-Final
+"""
+
+
 def getbasepeaks(record):
     abifraw = record.annotations['abif_raw']
     traceA = abifraw['DATA10']
